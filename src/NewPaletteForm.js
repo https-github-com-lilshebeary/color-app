@@ -13,7 +13,10 @@ import DraggableColorList from "./DraggableColorList";
 import { arrayMove } from "react-sortable-hoc";
 import { ValidatorForm } from "react-material-ui-form-validator";
 
+
+
 const drawerWidth = 400;
+
 
 const styles = (theme) => ({
   root: {
