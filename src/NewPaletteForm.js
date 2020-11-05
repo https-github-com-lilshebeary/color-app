@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import classNames from "classnames";
-import { withStyles } from "@material-ui/core/styles";
 import PaletteFormNav from "./PaletteFormNav";
 import ColorPickerForm from "./ColorPickerForm";
 import Drawer from "@material-ui/core/Drawer";
@@ -12,6 +11,7 @@ import Button from "@material-ui/core/Button";
 import DraggableColorList from "./DraggableColorList";
 import { arrayMove } from "react-sortable-hoc";
 import { ValidatorForm } from "react-material-ui-form-validator";
+import { withStyles } from "@material-ui/core/styles";
 import styles from './styles/NewPaletteFormStyles';
 
 
